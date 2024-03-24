@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="search">
+            <input type="text" placeholder="search here.." spellcheck="false">
+        <button><img src="weather-app-img/images/search.png" alt=""></button>
+        </div>
+        <div class="error">
+            <p>Invalid data</p>
+        </div>
+        <div class="weather">
+            <img src="weather-app-img/images/rain.png" class="weather-icon" >
+            <h1 id="temp">34°c</h1>
+            <h2 id="city">Mumbai</h2>
+            
+                <div class="details">
+                    <div class="col">
+                        <img src="weather-app-img/images/humidity.png" >
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="weather-app-img/images/wind.png" >
+                        <div>
+                            <p class="wind">15 km/hr</p>
+                            <p>wind</p>
+                        </div>
+                    </div>
+                   
+                </div>
+            
+        </div>
+
+    </div>
+    <script src="index.js">
+    //   function api(){
+    //     fetch("http://api.weatherapi.com/v1/current.json?key=c6891ac6069544eabc885244242303&q=Mumbai")
+    //     .then((res)=>{
+    //         return res.json();
+    //     })
+    //     .then((data)=>{
+    //         console.log(data.current.humidity);
+    //     })
+    //   }
+    //   api();
+
+    </script>
+</body>
+</html>
